@@ -33,4 +33,4 @@ jobs:
         USERS_COVER: ${{ secrets.USERS_COVER }}
       run: |
         echo "$USERS_COVER" > ./config.json
-        python main.py
+        python index.py
